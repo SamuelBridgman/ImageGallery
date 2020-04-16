@@ -1,7 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="277640f5-c761-480f-b927-445ebb410e36" name="Default Changelist" comment="" />
+    <list default="true" id="277640f5-c761-480f-b927-445ebb410e36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/4d866706-c93a-4b5f-9590-339507c3516b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/IMG_5093.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/IMG_5096.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/a7427f96-b534-427a-bb53-1f5efa654d30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/4d866706-c93a-4b5f-9590-339507c3516b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5061.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5093.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5094.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5095.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5096.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5097.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5098.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5099.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5100.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5152.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5170.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5171.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5172.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5173.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5174.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5175.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5176.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5177.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5178.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5179.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5180.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5181.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5184.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5185.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5186.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5187.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5188.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5189.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5190.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5191.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5192.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5193.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5194.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5195.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5196.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5197.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5198.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5199.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5200.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5201.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5202.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5203.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5204.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5205.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5206.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5207.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5208.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5209.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5210.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5211.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5212.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5213.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5214.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5215.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5216.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5217.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5218.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5219.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5220.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5221.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5222.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5223.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5224.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5225.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5226.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5227.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5228.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5229.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5230.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5231.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5232.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5233.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5234.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5235.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5236.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5237.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5238.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5239.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5240.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5241.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5242.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5243.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5244.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5245.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5247.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5248.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5249.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5250.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5251.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5252.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5253.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5267.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5268.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5269.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5270.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5271.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5273.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5274.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5275.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5276.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5277.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5278.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/IMG_5279.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/static/images/a7427f96-b534-427a-bb53-1f5efa654d30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/templates/imageGallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/templates/secondImageGallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Authentication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ImageGallery.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,23 +129,38 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aYvMzWERn8poH6TlIOEqviXgYL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GallerySite" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/static" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\venv\static" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Authentication" />
+      <module name="ImageGallery" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -66,47 +199,58 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="119" key="FileChooserDialogImpl" timestamp="1587007612280">
+    <state x="135" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587010014278">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="100" y="119" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1587007612280" />
-    <state width="723" height="171" key="GridCell.Tab.0.bottom" timestamp="1587007487541">
+    <state x="135" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1587010014278" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1587012205335">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="723" height="171" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587007487541" />
-    <state width="723" height="171" key="GridCell.Tab.0.center" timestamp="1587007487541">
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1587012205335" />
+    <state x="357" y="231" key="FileChooserDialogImpl" timestamp="1587012376805">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="723" height="171" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1587007487541" />
-    <state width="723" height="171" key="GridCell.Tab.0.left" timestamp="1587007487541">
+    <state x="357" y="231" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1587012376805" />
+    <state width="619" height="206" key="GridCell.Tab.0.bottom" timestamp="1587017425107">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="723" height="171" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1587007487541" />
-    <state width="723" height="171" key="GridCell.Tab.0.right" timestamp="1587007487541">
+    <state width="619" height="206" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587017425107" />
+    <state width="619" height="206" key="GridCell.Tab.0.center" timestamp="1587017425106">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="723" height="171" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1587007487541" />
-    <state width="753" height="207" key="GridCell.Tab.1.bottom" timestamp="1587007487524">
+    <state width="619" height="206" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1587017425106" />
+    <state width="619" height="206" key="GridCell.Tab.0.left" timestamp="1587017425106">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="753" height="207" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587007487524" />
-    <state width="753" height="207" key="GridCell.Tab.1.center" timestamp="1587007487524">
+    <state width="619" height="206" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1587017425106" />
+    <state width="619" height="206" key="GridCell.Tab.0.right" timestamp="1587017425106">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="753" height="207" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1587007487524" />
-    <state width="753" height="207" key="GridCell.Tab.1.left" timestamp="1587007487524">
+    <state width="619" height="206" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1587017425106" />
+    <state width="619" height="206" key="GridCell.Tab.1.bottom" timestamp="1587017425107">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="753" height="207" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1587007487524" />
-    <state width="753" height="207" key="GridCell.Tab.1.right" timestamp="1587007487524">
+    <state width="619" height="206" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587017425107" />
+    <state width="619" height="206" key="GridCell.Tab.1.center" timestamp="1587017425107">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="753" height="207" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1587007487524" />
-    <state x="0" y="6" key="SettingsEditor" timestamp="1587005868733">
+    <state width="619" height="206" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1587017425107" />
+    <state width="619" height="206" key="GridCell.Tab.1.left" timestamp="1587017425107">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="0" y="6" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1587005868733" />
+    <state width="619" height="206" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1587017425107" />
+    <state width="619" height="206" key="GridCell.Tab.1.right" timestamp="1587017425107">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="619" height="206" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1587017425107" />
+    <state x="0" y="6" key="SettingsEditor" timestamp="1587010458497">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="0" y="6" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1587010458497" />
     <state x="23" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1587007601632">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

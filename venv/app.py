@@ -7,6 +7,12 @@ import jwt
 import datetime
 from functools import wraps
 
+import random
+import glob
+
+from os import listdir
+from os.path import isfile, join
+import os
 #import logging
 #logging.basicConfig(filename='app.log',level=logging.DEBUG)
 
@@ -25,16 +31,19 @@ class Users(db.Model):
     admin = db.Column(db.Boolean)
     #email = db.Column(db.String(80))
 
-class Todo(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    text = db.Column(db.String(50))
-    complete = db.Column(db.Boolean)
-    user_id = db.Column(db.Integer)
+@app.route("/", methods=['GET', 'POST'])
+def home():
+    image_names = os.listdir("static")
 
-#@app.route("/", methods=['GET', 'POST'])
-#def home():
-#    name = "sam"
-#    return "<h1>Hello " + name + "</h1>"
+    return render_template("secondImageGallery.html", image_names = image_names)
+
+@app.route("/images", methods=['GET', 'POST'])
+def images():
+    mypath = "static\images\*.JPG"
+    filePaths = glob.glob(mypath)
+    filePaths = {x.replace('\\', '/') for x in filePaths}
+
+    return render_template("imageGallery.html", filepaths = filePaths)
 
 def token_required(f):
     @wraps(f)
