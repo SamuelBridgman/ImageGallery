@@ -1,0 +1,35 @@
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 270-291-821
+INFO:werkzeug: * Running on http://127.0.0.1:50000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 270-291-821
+INFO:werkzeug: * Running on http://127.0.0.1:50000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2020 17:38:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Samuel\\PycharmProjects\\Authentication\\venv\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 270-291-821
+INFO:werkzeug: * Running on http://127.0.0.1:50000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Samuel\\PycharmProjects\\Authentication\\venv\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 270-291-821
+INFO:werkzeug: * Running on http://127.0.0.1:50000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2020 18:03:25] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Samuel\\PycharmProjects\\Authentication\\venv\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 270-291-821
+INFO:werkzeug: * Running on http://127.0.0.1:50000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\Samuel\\PycharmProjects\\Authentication\\venv\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 270-291-821
+INFO:werkzeug: * Running on http://127.0.0.1:50000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2020 18:04:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Samuel\\PycharmProjects\\Authentication\\venv\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
