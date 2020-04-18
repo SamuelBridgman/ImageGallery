@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Image Gallery{% endblock %}
+{% block content %}
+<h1>Paginated Image gallery</h1>
+
+    <div class="container">
+      {{ pagination.links }}
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>#</th>
+              <th>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for img in images %}
+            <tr>
+              <td>
+                <a target="_blank" href="{{url_for('static', filename='/images/' + img)}}">
+                  <img src="{{url_for('static', filename='/images/' + img)}}" alt="Forest" style="width:150px">
+                </a>
+              </td>
+              <td>{{ loop.index + (page - 1) * per_page }}</td>
+              <td>{{ user }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {{ pagination.links }}
+    </div>
+
+{% endblock %}

@@ -6,6 +6,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 import jwt
 import datetime
 from functools import wraps
+from flask_paginate import Pagination, get_page_args
 
 import random
 import glob
@@ -56,24 +57,34 @@ def token_required(f):
 
     return decorated
 
-@app.route("/", methods=['GET', 'POST'])
+@app.route("/gallery", methods=['GET', 'POST'])
 @token_required
-def home(self):
+def gallery(self):
     path = ".\static\images"
     image_names = os.listdir(path)
 
-    return render_template("secondImageGallery.html", image_names = image_names)
+    return render_template("gallery.html", image_names = image_names)
 
-#@app.route("/images", methods=['GET', 'POST'])
-#def images():
-#    mypath = "static\images\*.JPG"
-#    filePaths = glob.glob(mypath)
-#    filePaths = {x.replace('\\', '/') for x in filePaths}
-#
-#    return render_template("imageGallery.html", filepaths = filePaths)
+image_names = []
 
+def get_images(offset=0, per_page=10):
+    return image_names[offset: offset + per_page]
 
-
+@app.route('/gallery/paged')
+@token_required
+def paginated_gallery(self):
+    page, per_page, offset = get_page_args(page_parameter='page',
+                                           per_page_parameter='per_page')
+    total = len(image_names)
+    pagination_images = get_images(offset=offset, per_page=per_page)
+    pagination = Pagination(page=page, per_page=per_page, total=total,
+                            css_framework='bootstrap4')
+    return render_template('pagedgallery.html',
+                           images=pagination_images,
+                           page=page,
+                           per_page=per_page,
+                           pagination=pagination,
+                           )
 
 @app.route("/user", methods=['GET'])
 @token_required
@@ -182,7 +193,7 @@ def login():
         token = token.decode('UTF-8')
         #return jsonify({'token': token})
 
-        resp = make_response(redirect(url_for("home")))
+        resp = make_response(redirect(url_for("gallery")))
         #resp.response = jsonify({'token': token})
         resp.set_cookie('ImageGalleryCookie', value=token, httponly=True)
         return resp
@@ -191,4 +202,5 @@ def login():
 
 if __name__ == "__main__":
         db.create_all()
+        image_names = os.listdir(".\static\images")
         app.run(host='127.0.0.1', port=50000, debug=True)
