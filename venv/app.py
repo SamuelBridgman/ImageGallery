@@ -13,14 +13,15 @@ import glob
 from os import listdir
 from os.path import isfile, join
 import os
-#import logging
-#logging.basicConfig(filename='app.log',level=logging.DEBUG)
+import logging
+logging.basicConfig(filename='app.log',level=logging.DEBUG)
 
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'thisissecret'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///auth.sqlite3'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['EXPLAIN_TEMPLATE_LOADING'] = True
 db = SQLAlchemy(app)
 
 class Users(db.Model):
@@ -31,20 +32,6 @@ class Users(db.Model):
     admin = db.Column(db.Boolean)
     #email = db.Column(db.String(80))
 
-@app.route("/", methods=['GET', 'POST'])
-def home():
-    image_names = os.listdir("static")
-
-    return render_template("secondImageGallery.html", image_names = image_names)
-
-@app.route("/images", methods=['GET', 'POST'])
-def images():
-    mypath = "static\images\*.JPG"
-    filePaths = glob.glob(mypath)
-    filePaths = {x.replace('\\', '/') for x in filePaths}
-
-    return render_template("imageGallery.html", filepaths = filePaths)
-
 def token_required(f):
     @wraps(f)
     def decorated(*args, **kwargs):
@@ -54,17 +41,35 @@ def token_required(f):
             token = request.headers['x-access-token']
 
         if not token:
-            return jsonify({'message' : 'Token is missing'}), 401
+            return jsonify({'message': 'Token is missing'}), 401
 
         try:
             data = jwt.decode(token, app.config['SECRET_KEY'])
             current_user = Users.query.filter_by(public_id=data['public_id']).first()
         except:
-            return jsonify({'message' : 'Token is invalid!'}), 401
+            return jsonify({'message': 'Token is invalid!'}), 401
 
         return f(current_user, *args, **kwargs)
 
     return decorated
+
+@app.route("/", methods=['GET', 'POST'])
+@token_required
+def home():
+    path = ".\static\images"
+    image_names = os.listdir(path)
+
+    return render_template("secondImageGallery.html", image_names = image_names)
+
+#@app.route("/images", methods=['GET', 'POST'])
+#def images():
+#    mypath = "static\images\*.JPG"
+#    filePaths = glob.glob(mypath)
+#    filePaths = {x.replace('\\', '/') for x in filePaths}
+#
+#    return render_template("imageGallery.html", filepaths = filePaths)
+
+
 
 
 @app.route("/user", methods=['GET'])
@@ -154,6 +159,7 @@ def delete_user(current_user, public_id):
     db.session.commit()
     return jsonify({'message' : 'User has been deleted!'})
 
+# username case sensitive
 @app.route('/login')
 def login():
     auth = request.authorization

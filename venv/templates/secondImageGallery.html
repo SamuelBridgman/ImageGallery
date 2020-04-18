@@ -1,19 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-Image gallery
-
-</br></br></br></br></br></br>
+{% extends "base.html" %}
+{% block title %}Image Gallery{% endblock %}
+{% block content %}
+<h1>Image gallery</h1>
+</br></br>
     {% for pth in image_names %}
-        <a target="_blank" href="{{url_for('static', filename=pth)}}">
-            <img src="{{url_for('static', filename=pth)}}" alt="Forest" style="width:150px">
+        <a target="_blank" href="{{url_for('static', filename='/images/' + pth)}}">
+            <img src="{{url_for('static', filename='/images/' + pth)}}" alt="Forest" style="width:150px">
         </a>
     {% endfor %}
 
-
-</body>
-</html>
+{% endblock %}
