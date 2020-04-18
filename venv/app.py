@@ -21,7 +21,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'thisissecret'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///auth.sqlite3'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['EXPLAIN_TEMPLATE_LOADING'] = True
+#app.config['EXPLAIN_TEMPLATE_LOADING'] = True
 db = SQLAlchemy(app)
 
 class Users(db.Model):
@@ -37,8 +37,11 @@ def token_required(f):
     def decorated(*args, **kwargs):
         token = None
 
+        cookieToken = request.cookies.get('ImageGalleryCookie')
         if 'x-access-token' in request.headers:
             token = request.headers['x-access-token']
+        elif cookieToken:
+            token = cookieToken
 
         if not token:
             return jsonify({'message': 'Token is missing'}), 401
@@ -55,7 +58,7 @@ def token_required(f):
 
 @app.route("/", methods=['GET', 'POST'])
 @token_required
-def home():
+def home(self):
     path = ".\static\images"
     image_names = os.listdir(path)
 
@@ -176,7 +179,13 @@ def login():
         token = jwt.encode({'public_id' : user.public_id,
                             'exp' : datetime.datetime.utcnow() + datetime.timedelta(minutes=30)},
                             app.config['SECRET_KEY'])
-        return jsonify({'token' : token.decode('UTF-8')})
+        token = token.decode('UTF-8')
+        #return jsonify({'token': token})
+
+        resp = make_response(redirect(url_for("home")))
+        #resp.response = jsonify({'token': token})
+        resp.set_cookie('ImageGalleryCookie', value=token, httponly=True)
+        return resp
 
     return make_response('Could not verify credentials', 401, {'WWW-Authenticate': 'Basic realm="Login Requried!"'})
 
