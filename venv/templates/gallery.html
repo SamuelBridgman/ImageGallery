@@ -2,13 +2,15 @@
 {% block title %}Image Gallery{% endblock %}
 {% block content %}
 <h1 class="main">Image gallery</h1>
-</br></br>
+<div class="container">
   <div class="photo-container">
     {% for pth in image_names %}
-        <a target="_blank" href="{{url_for('static', filename='/images/' + pth)}}">
-            <img src="{{url_for('static', filename='/images/' + pth)}}" alt="Photo {{pth}}" class="photo">
-        </a>
+        <div class="single-photo-container">
+            <a target="_blank" href="{{url_for('static', filename='/images/' + pth)}}">
+                <img src="{{url_for('static', filename='/images/' + pth)}}" alt="Photo {{pth}}" class="photo">
+            </a>
+        </div>
     {% endfor %}
   </div>
-
+</div>
 {% endblock %}
