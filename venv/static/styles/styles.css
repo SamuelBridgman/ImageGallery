@@ -1,0 +1,69 @@
+body {
+    background-image: linear-gradient(#C2D5A7, #B0ABCA);
+    /** background-color:#A3D6D4 !important; */
+}
+
+h1.main{
+    color: #602F44;
+    text-align: center;
+    margin: 10px;
+}
+
+.navbar-default {
+    background-color:black !important;
+    color:white;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+button, input, optgroup, select, textarea{
+    background-color: white !important;
+}
+
+.XXphoto-container{
+    margin: 10px;
+}
+
+.container{
+    text-align: center;
+}
+
+.links-container{
+    display: inline-block;
+    margin: 10px;
+}
+
+.photo{
+    width: 250px;
+    margin: 5px;
+    /* border: 10px solid white; */
+}
+
+.page-item{
+    border: 10px;
+}
+
+.page-item.disabled .page-link{
+    background-color: #C2D5A7;
+}
+
+.page-link{
+    margin: 2px;
+    /*box-shadow: 0 1px 0 #602F44;*/
+    color: white;
+    background-color:#602F44;
+    border: 1px solid black;
+}
+
+.single-photo-container{
+    width:250px;
+    height:250px;
+    overflow:hidden;
+    display:inline-block
+}

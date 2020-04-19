@@ -67,7 +67,7 @@ def gallery(self):
 
 image_names = []
 
-def get_images(offset=0, per_page=10):
+def get_images(offset=0, per_page=25):
     return image_names[offset: offset + per_page]
 
 @app.route('/gallery/paged')
@@ -193,7 +193,7 @@ def login():
         token = token.decode('UTF-8')
         #return jsonify({'token': token})
 
-        resp = make_response(redirect(url_for("gallery")))
+        resp = make_response(redirect(url_for("paginated_gallery")))
         #resp.response = jsonify({'token': token})
         resp.set_cookie('ImageGalleryCookie', value=token, httponly=True)
         return resp

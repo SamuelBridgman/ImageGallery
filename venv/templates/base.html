@@ -4,12 +4,13 @@
     <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
           crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles/styles.css')}}" />
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock %}</title>
 </head>
     <body>
         <!-- add bootstrap nav -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,7 +29,7 @@
                 <a class="nav-link" href="/gallery/paged">Paginated Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">###</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Videos (Coming Soon)</a>
               </li>
             </ul>
           </div>
