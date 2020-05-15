@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="277640f5-c761-480f-b927-445ebb410e36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/auth.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/users/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp.wsgi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/working auth.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/venv/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/venv/static/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/templates/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/app.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/auth.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/auth.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/templates/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/templates/pagedGallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pagedGallery.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +46,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IntroductionToPython" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -47,15 +56,15 @@
       <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery" />
+      <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\venv\templates\users" />
       <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\venv\static\styles" />
       <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\venv\static" />
       <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\venv\templates" />
-      <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\static" />
-      <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\templates" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ImageGallery" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,7 +76,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/app.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Samuel\PycharmProjects\ImageGallery\__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app" />
+        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
@@ -103,68 +112,93 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="135" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720@0.0.1280.720" timestamp="1587010014278" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1587012205335">
+    <state x="371" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587697841625">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1587012205335" />
-    <state width="652" height="459" key="DebuggerActiveHint" timestamp="1587272957411">
+    <state x="371" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1587697841625" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1587953009816">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="652" height="459" key="DebuggerActiveHint/0.0.1280.720@0.0.1280.720" timestamp="1587272957410" />
-    <state x="201" y="167" key="FileChooserDialogImpl" timestamp="1587273581598">
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1587953009816" />
+    <state width="879" height="459" key="DebuggerActiveHint" timestamp="1588306164956">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="201" y="167" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1587273581598" />
-    <state width="619" height="166" key="GridCell.Tab.0.bottom" timestamp="1587278003471">
+    <state width="879" height="459" key="DebuggerActiveHint/0.0.1280.720@0.0.1280.720" timestamp="1588306164956" />
+    <state x="201" y="167" key="FileChooserDialogImpl" timestamp="1588300016778">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="619" height="166" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587278003471" />
-    <state width="619" height="166" key="GridCell.Tab.0.center" timestamp="1587278003471">
+    <state x="201" y="167" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1588300016778" />
+    <state width="1259" height="128" key="GridCell.Tab.0.bottom" timestamp="1588307649995">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="619" height="166" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1587278003471" />
-    <state width="619" height="166" key="GridCell.Tab.0.left" timestamp="1587278003471">
+    <state width="1259" height="128" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588307649995" />
+    <state width="1259" height="128" key="GridCell.Tab.0.center" timestamp="1588307649995">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="619" height="166" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1587278003471" />
-    <state width="619" height="166" key="GridCell.Tab.0.right" timestamp="1587278003471">
+    <state width="1259" height="128" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1588307649995" />
+    <state width="1259" height="128" key="GridCell.Tab.0.left" timestamp="1588307649995">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="619" height="166" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1587278003471" />
-    <state width="619" height="196" key="GridCell.Tab.1.bottom" timestamp="1587273299034">
+    <state width="1259" height="128" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1588307649995" />
+    <state width="1259" height="128" key="GridCell.Tab.0.right" timestamp="1588307649995">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="619" height="196" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587273299034" />
-    <state width="619" height="196" key="GridCell.Tab.1.center" timestamp="1587273299034">
+    <state width="1259" height="128" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1588307649995" />
+    <state width="1259" height="193" key="GridCell.Tab.1.bottom" timestamp="1588307648081">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="619" height="196" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1587273299034" />
-    <state width="619" height="196" key="GridCell.Tab.1.left" timestamp="1587273299034">
+    <state width="1259" height="193" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588307648081" />
+    <state width="1259" height="193" key="GridCell.Tab.1.center" timestamp="1588307648080">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="619" height="196" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1587273299034" />
-    <state width="619" height="196" key="GridCell.Tab.1.right" timestamp="1587273299034">
+    <state width="1259" height="193" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1588307648080" />
+    <state width="1259" height="193" key="GridCell.Tab.1.left" timestamp="1588307648080">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="619" height="196" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1587273299034" />
-    <state x="0" y="6" key="SettingsEditor" timestamp="1587184145315">
+    <state width="1259" height="193" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1588307648080" />
+    <state width="1259" height="193" key="GridCell.Tab.1.right" timestamp="1588307648080">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="0" y="6" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1587184145315" />
-    <state x="23" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1587181252286">
+    <state width="1259" height="193" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1588307648080" />
+    <state x="0" y="6" key="SettingsEditor" timestamp="1587880096978">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="23" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1587181252286" />
+    <state x="0" y="6" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1587880096978" />
+    <state x="23" y="184" key="com.intellij.ide.util.TipDialog" timestamp="1588387323059">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="23" y="184" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1588387323059" />
     <state x="0" y="97" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1587002971980">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="97" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.720@0.0.1280.720" timestamp="1587002971980" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1587338831869">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1587338831869" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/__init__.py</url>
+          <line>214</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="request" />
         <watch expression="Users" />
+        <watch expression="pagination_images" />
       </configuration>
     </watches-manager>
   </component>

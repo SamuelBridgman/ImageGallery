@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}User List Page{% endblock %}
+{% block content %}
+<h1 class="main">User List</h1>
+<div class="container">
+    <div style="min-height:200px;">
+        {% for usr in users %}
+        Name: {{usr.name}}, Admin: {{usr.admin}}
+        <form action="{{url_for('delete_user')}}" method="post">
+            <input type="hidden" name="name" value="{{usr.name if usr.name}}"/>
+            <input type="submit" value="Delete" />
+        </form>
+        <form action="{{url_for('elovate_user')}}" method="post">
+            <input type="hidden" name="name" value="{{usr.name if usr.name}}"/>
+            <input type="submit" value="Elovate" />
+        </form>
+        {% endfor %}
+    </div>
+</div>
+<h1 class="main">Create User</h1>
+
+<div style="margin:30px;">
+    <form action="{{url_for('create_user')}}" methods="post">
+        <input type="text" name="name" placeholder="Enter name" />
+        <input type="password" name="password" placeholder="Enter password" />
+        <input type="submit" formmethod="post" value="submit POST" />
+    </form>
+</div>
+{% endblock %}
