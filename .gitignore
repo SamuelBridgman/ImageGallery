@@ -1,3 +1,5 @@
 \static\images\*
 *.JPG
 *.log
+*.MOV
+*.mov

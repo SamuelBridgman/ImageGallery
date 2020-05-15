@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="277640f5-c761-480f-b927-445ebb410e36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/auth.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp.wsgi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/working auth.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/movvideos/MVI_6586.MOV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/movvideos/MVI_6587.MOV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/videogallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/app.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/auth.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/auth.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/templates/pagedGallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pagedGallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +39,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/movvideos" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\venv\templates" />
-      <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\venv\static" />
-      <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\static\movvideos" />
       <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery" />
       <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\venv\templates\users" />
       <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\venv\static\styles" />
       <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\venv\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\static\movvideos" />
       <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\venv\templates" />
+      <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\venv\static" />
+      <recent name="C:\Users\Samuel\PycharmProjects\ImageGallery\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -128,38 +122,38 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="201" y="167" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1588300016778" />
-    <state width="1259" height="128" key="GridCell.Tab.0.bottom" timestamp="1588307649995">
+    <state width="1259" height="128" key="GridCell.Tab.0.bottom" timestamp="1589511356910">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="128" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588307649995" />
-    <state width="1259" height="128" key="GridCell.Tab.0.center" timestamp="1588307649995">
+    <state width="1259" height="128" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589511356910" />
+    <state width="1259" height="128" key="GridCell.Tab.0.center" timestamp="1589511356910">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="128" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1588307649995" />
-    <state width="1259" height="128" key="GridCell.Tab.0.left" timestamp="1588307649995">
+    <state width="1259" height="128" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589511356910" />
+    <state width="1259" height="128" key="GridCell.Tab.0.left" timestamp="1589511356909">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="128" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1588307649995" />
-    <state width="1259" height="128" key="GridCell.Tab.0.right" timestamp="1588307649995">
+    <state width="1259" height="128" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589511356909" />
+    <state width="1259" height="128" key="GridCell.Tab.0.right" timestamp="1589511356910">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="128" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1588307649995" />
-    <state width="1259" height="193" key="GridCell.Tab.1.bottom" timestamp="1588307648081">
+    <state width="1259" height="128" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589511356910" />
+    <state width="1259" height="193" key="GridCell.Tab.1.bottom" timestamp="1589510992513">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="193" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1588307648081" />
-    <state width="1259" height="193" key="GridCell.Tab.1.center" timestamp="1588307648080">
+    <state width="1259" height="193" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589510992513" />
+    <state width="1259" height="193" key="GridCell.Tab.1.center" timestamp="1589510992512">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="193" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1588307648080" />
-    <state width="1259" height="193" key="GridCell.Tab.1.left" timestamp="1588307648080">
+    <state width="1259" height="193" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1589510992512" />
+    <state width="1259" height="193" key="GridCell.Tab.1.left" timestamp="1589510992512">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="193" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1588307648080" />
-    <state width="1259" height="193" key="GridCell.Tab.1.right" timestamp="1588307648080">
+    <state width="1259" height="193" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1589510992512" />
+    <state width="1259" height="193" key="GridCell.Tab.1.right" timestamp="1589510992512">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="193" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1588307648080" />
+    <state width="1259" height="193" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1589510992512" />
     <state x="0" y="6" key="SettingsEditor" timestamp="1587880096978">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -182,8 +176,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/__init__.py</url>
-          <line>214</line>
+          <line>223</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/__init__.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

@@ -73,7 +73,7 @@ def gallery(self):
 
     image_names = os.listdir(pth)
 
-    return render_template("gallery.html", image_names = image_names)
+    return render_template("gallery.html", image_names=image_names)
 
 
 global image_names
@@ -121,6 +121,15 @@ def paginated_gallery(self):
                            per_page=per_page,
                            pagination=pagination,
                            )
+
+
+@app.route("/gallery/video")
+@token_required
+def video(self):
+    workingDir = Path(__file__).parent
+    pth = os.path.join(workingDir, "static\movvideos")
+    video_names = os.listdir(pth)
+    return render_template('videogallery.html', videoname=video_names)
 
 
 @app.route("/user", methods=['GET'])
