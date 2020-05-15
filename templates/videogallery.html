@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Image Gallery{% endblock %}
+{% block content %}
+<h1 class="main">Video Gallery</h1>
+
+<div class="container">
+  <div class="photo-container">
+    {% for pth in videoname %}
+        <video width="400" controls>
+            <source src="{{url_for('static', filename='/movvideos/' + pth)}}" type="video/mp4">
+        </video>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
